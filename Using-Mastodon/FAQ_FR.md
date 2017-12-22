@@ -11,7 +11,7 @@ Un groupe de métal progressif dont je suis fan porte le même nom; c'est ce qui
 
 #### De quelle manière est-ce décentralisé?
 
-Il existe plusieur moyens de procéder pour décentraliser quelque chose. Dans le cas de Mastodon, il s'agit d'un système «fédéré». Penser «courrier electronique» plutôt que «BitTorrent». Il y a plusieurs serveurs différents appelées instances; les utilisateurs ont compte sur l'une d'entre elles mais peuvent interagir et se suivre les uns les autres, quelle que soit l'instance sur laquelle se trouve leur compte.
+Il existe plusieurs moyens de procéder pour décentraliser quelque chose. Dans le cas de Mastodon, il s'agit d'un système «fédéré». Penser «courrier electronique» plutôt que «BitTorrent». Il existent plusieurs serveurs différents appelées instances; les utilisateurs ont un compte sur l'une d'entre elles mais peuvent interagir et se suivre les uns les autres, quelle que soit l'instance sur laquelle se trouve leur compte.
 
 #### Techniquement, comment fonctionne la fédération?
 
@@ -28,13 +28,13 @@ C'est l'instance «phare» de Mastodon, autrement dit celle que je fais tourner 
 
 #### Quelles autres plateformes font aussi partie du réseau fédéré?
 
-appelons ce réseau le «fediverse». Le fediverse existait déjà avant Mastodon, peuplé par des serveurs de GNU social, Friendica, Hubzilla, Diaspora etc. Tous ces serveurs ne sont pas complètement compatibles entre eux. Mastodon s'efforce à être entièrement conformes aux standards, et la compatibilité avec GNU social considérée prioritaire par rapport aux autres systèmes.
+Appelons ce réseau le «fediverse». Le fediverse existait déjà avant Mastodon, peuplé par des serveurs de GNU social, Friendica, Hubzilla, Diaspora etc. Tous ces serveurs ne sont pas complètement compatibles entre eux. Mastodon s'efforce à être entièrement conformes aux standards, et la compatibilité avec GNU social considérée prioritaire par rapport aux autres systèmes.
 
 #### J'ai essayé de me connecter à Mastodon en utilisant une application pour GNU social et ça n'a pas marché. Pourquoi?
 
 Bien que Mastodon soit compatible avec GNU social en termes de communication de serveur à serveur, l'API de client à serveur (autrement dit, la façon dont on accède à Mastodon) est différente. C'est pourquoi les applications qui ont été faites spécifiquement pour GNU social ne fonctionnent pas pour Mastodon. La raison est à la fois technique et idéologique.
 
-Comme Mastodon a été créé à partir de zéro, il est beaucoup plus simple que l'API reflète la structure interne le plus fidèlement possible, plutôt que de construire une couche d'émulation. De plus, ll'API client de GNU social est en fait une implémentation partielle d'une version obsolète de l'API de Twitter. C'est pourquoi GNU social peut fonctionner avec certaines versions (anciennes) d'applications pour Twitter. Cependant, beaucoup de ces applications ne sont plus maintenues, l'API de GNU social ne suit pas forcément les évolutions de l'API de Twitter et n'a jamais implémenté la totalité de ses fonctionnalités. 
+Comme Mastodon a été créé à partir de zéro, il est beaucoup plus simple que l'API reflète la structure interne le plus fidèlement possible, plutôt que de construire une couche d'émulation. De plus, l'API client de GNU social est en fait une implémentation partielle d'une version obsolète de l'API de Twitter. C'est pourquoi GNU social peut fonctionner avec certaines versions (anciennes) d'applications pour Twitter. Cependant, beaucoup de ces applications ne sont plus maintenues, l'API de GNU social ne suit pas forcément les évolutions de l'API de Twitter et n'a jamais implémenté la totalité de ses fonctionnalités. 
 
 #### Comment est financé Mastodon?
 
@@ -43,7 +43,7 @@ Le développement de Mastodon et l'hébergement de mastodon.social sont financé
 Le logiciel est gratuit et open source, et les communautés doivent héberger elles-même leurs serveurs si elles le peuvent, de manière à ce que les coûts soient également plus ou moins distribués. Il serait évidemment trop diffile pour moi de payer les factures si tout le monde décidait d'utiliser uniquement l'instance mastodon.social.
 
 #### Mastodon ressemble beaucoup à Twitter. Quelles sont les différences ?
-Mastodon est décentralisé. Chacun peut proposer son propre serveur Mastodon, avecses propres règles de communauté. Twitter est un service fourni par une seule autorité centrale, et fixe les règles pour tout le monde.
+Mastodon est décentralisé. Chacun peut proposer son propre serveur Mastodon, avec ses propres règles de communauté. Twitter est un service fourni par une seule autorité centrale, et fixe les règles pour tout le monde.
 
 #### Qu'est-ce qu'une «fédération»?
 C'est un groupe de serveurs Mastodon qui partagent des pouets (toots) entre eux.
@@ -106,7 +106,7 @@ Comme tout le monde peut créer un compte sur n'importe quelle instance, il est 
 Si ton instance le permet, l'option se trouve dans Préférences, sour le menu «Identification à deux facteurs». [Le 2FA de Mastodon](2FA.md) utilise un QR code et un mot de passe texte.
 
 #### Pourquoi ne puis-je pas voir les pouets de certaines personnes?
-Il y a plusieur raisons pour que cela se produise. Les posts de cette personne sont peut-être privés. Il faut suivre un compte pour voir ses pouets qui ne sont pas publics. Si quelqu'un t'a bloqué, il ne sera plus possible de voir ses posts non publics.
+Il y a plusieurs raisons pour que cela se produise. Les posts de cette personne sont peut-être privés. Il faut suivre un compte pour voir ses pouets qui ne sont pas publics. Si quelqu'un t'a bloqué, il ne sera plus possible de voir ses posts non publics.
 
 #### Quelles sont les tendances?
 Pour savoir les tendances sur Mastodon, suis le bot d'estimations [@TrendingBot@mastodon.social](https://mastodon.social/@TrendingBot).
@@ -115,7 +115,7 @@ Pour savoir les tendances sur Mastodon, suis le bot d'estimations [@TrendingBot@
 «CW» signifie «Alerte sur le contenu» («Content Warning» en anglais). Il est utilisé pour cacher le contenu d'un pouet, comme les «spoilers».
 
 #### Comment fonctionne l'option «Marquer le média comme sensible» («NSFW» - Not Safe For Work)?
-Quand tu joint une image à ton post en utilisant l'icône «appareil photo», une option supplémentaire apparaît (en général «NSFW»). Cliquer dessus va cacher l'image derrière une alerte «Contenu Sensible», permettant aux autres de ne voir l'image postée que s'iels le souhaitent, en cliquant dessus.
+Quand tu joins une image à ton post en utilisant l'icône «appareil photo», une option supplémentaire apparaît (en général «NSFW»). Cliquer dessus va cacher l'image derrière une alerte «Contenu Sensible», permettant aux autres de ne voir l'image postée que s'iels le souhaitent, en cliquant dessus.
 
 #### Qu'est-ce qui se passe sur Mastodon avec les ananas?
 L'ananas, c'est bon. Et ça fait rire les gens. Contente-toi de ça.
@@ -134,7 +134,7 @@ Clique sur **Pour Commencer**, puis **Plus d'informations**. Cela affiche une pa
 <img src="screenshots/getting_started-extended_information.png" alt="Plus d'informations" height="200"/>
 <img src="screenshots/admin_info.png" alt="Informations sur l'admin" height="200"/>
 
-#### Oulah, je vois sonvent du contenu offensant qui provient d'une même instance, est-ce qu'il y a un moyen de bloquer *tous* ces contenus?
+#### Oulah, je vois souvent du contenu offensant qui provient d'une même instance, est-ce qu'il y a un moyen de bloquer *tous* ces contenus?
 Si ton instance est en version 1.4.1 de Mastodon ou plus récente, oui! Visite la page d'un·e utilisateur·rice de l'instance que tu veux bloquer, puis clique sur le menu déroulant sur la gauche juste au-dessus de ses pouets. Il devrait y avoir une option pour cacher tout le contenu provenant de l'instance de cet utilisateur:
 
 <img src="screenshots/hide-everything-drop-down.png" alt="Menu déroulant Cacher Tout" height="200" />
@@ -165,7 +165,7 @@ L'icône de **globe** sous la zone de pouet permet d'ajuster la confidentialité
 | Privé                     | Abonnés seulement               | Abonné seulement                | Ne peuvent pas être boostés. |
 | Direct                    | Personnes mentionnées seulement | Personnes mentionnées seulement | Similaires aux courriels |
 
-#### Puisje utiliser des hashtags (mot-dièse)? Est-ce conseillé?
+#### Puis-je utiliser des hashtags (mot-dièse)? Est-ce conseillé?
 Oui! Les Hashtags sont traqués et sont souvent rigolos, mais aussi servent parfois à éviter à certaines personnes de tomber sur des posts offensants. Les Hashtags sont particulièrements appréciés pour les posts publics à propos de #POLITIQUE (#POLITICS), #SANTÉ (#HEALTH), #DÉPRESSION (#DEPRESSION), ou de sujets #LEWD ou #NSFW. De tels posts sont aussi ce pourquoi la fonctionnalité d'alerte concernant le contenu (Content Warning) a été créée.
 
 #### Comment puis-je être vérifié, avec un “✅”?
@@ -175,7 +175,7 @@ Oui! Les Hashtags sont traqués et sont souvent rigolos, mais aussi servent parf
 Non, désolé. Mais tu peux toujours supprimer un pouet et le réécrire…
 
 #### Si je supprime un post, est-il supprimé partout?
-Supprimer un post le supprime de la file locale. Cependant, s'il aa déjà été boosté, il se peut qu'il soit encore visible et peut se fédérer.
+Supprimer un post le supprime de la file locale. Cependant, s'il a déjà été boosté, il se peut qu'il soit encore visible et peut se fédérer.
 
 #### Comment puis-je voir mes pouets favoris?
 Clique sur **Pour Commencer**, puis **Favoris**
@@ -190,12 +190,12 @@ Pas pour le moment. Tu dois copier et coller manuellement le texte pour le citer
 Oui.
 
 #### Puis-je faire une sauvegarde de mes données?
-Oui, en partie! C'est sous le menu **Préférences->Export des données**
+Oui, en parti! C'est sous le menu **Préférences->Export des données**
 
 <img src="screenshots/preferences-data_export.png" alt="Export des données" height="400"/>
 
 #### Je ne peux pas voir les pouets d'un·e utilisateur·rice distant·e sous leur description!
-Dans la **Vue Étendue** du profil, clique sur son avatar. Cela vate rediriger sur son instance, et afficher tous ses pouets publics.
+Dans la **Vue Étendue** du profil, clique sur son avatar. Cela va te rediriger sur son instance, et afficher tous ses pouets publics.
 
 <img src="screenshots/profile-avatar_click.png" alt="Cliquer sur l'avatar" height="200"/>
 <img src="screenshots/profile-webpage_URL.png" alt="Vue en page web native" height="200"/>
@@ -223,7 +223,7 @@ L'auteur.
 #### Est-il possible d'avoir un aperçu des personnes d'une instance et de ce qu'elles postent?
 Oui, essaye cet excellent [outil d'aperçu d'instance](http://www.unmung.com/mastoview?url=mastodon.social&view=local).
 
-#### Comment pui-je masquer les pouets dans les langues que je ne comprends pas?
+#### Comment puis-je masquer les pouets dans les langues que je ne comprends pas?
 Les développeurs sont actuellement en train de travailler sur cette fonctionnalités ainsi que d'autres options de filtrage.
 
 #### La traduction automatique est-elle supportée?
